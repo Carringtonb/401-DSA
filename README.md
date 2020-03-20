@@ -1,2 +1,2 @@
 # 401-DSA
-[ArrayShift](./array-shift/ArrayShift.cs)
+[ArrayShift](./array-shift/ArrayShift.sln)
