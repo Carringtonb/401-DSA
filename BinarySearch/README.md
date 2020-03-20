@@ -44,6 +44,7 @@ element that is equal to the search key, or -1 if the element does not exist.
 ### Change Log
  
 1.2: *Updated README 3/19/2020 
+
 1.1: *Walked through amandas solution following logic. 3/18/2020
 
 ---
