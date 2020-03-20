@@ -1,4 +1,4 @@
 # 401-DSA
 
 ### Array Shift
-[Code-Challenge-1](ArrayShift.sln)
+[Code-Challenge-1](./array-shift/ArrayShift.sln)
