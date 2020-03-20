@@ -18,8 +18,8 @@ element that is equal to the search key, or -1 if the element does not exist.
 
 | Input | Expected Output |
 | :----------- | :----------- |
-| [1,3,2] 3 | 
-| 1 | 
+| [1,3,2] 3 |  | 1 | 
+
 
 ---
 
@@ -36,7 +36,7 @@ element that is equal to the search key, or -1 if the element does not exist.
 
 ### Whiteboard Visual
 ***[Your Whiteboard Image]***
-![Image 1](https://via.placeholder.com/750x500)
+![codechallenge2](https://user-images.githubusercontent.com/58369033/77137203-2c24c780-6a2a-11ea-845b-0960a71bc82a.jpg)
 
 
 ---
