@@ -1,8 +1,45 @@
 # LinkList
+# LinkList Merge
 
-## Challenge
+## Perfect Sequence
+*Author: Carrington Beard*
 
-* Create a new link list project with a node at the head that can be tested to be empty. Be able to add values to the head of the node and check any node in the link list for a specific value and return a boolean on whether or not the value exists. Stringify the value and return a list of strings representing these values, followed with the value "NULL".
+---
 
-## Approach and Efficiency
-Amanda helped with the coding portion of this implementation while as a class we gave input and opinions. 
+### Problem Domain
+
+Write a function called mergeLists which takes two linked lists as arguments. Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list.
+---
+
+### Inputs and Expected Outputs
+
+| Input | Expected Output |
+| :----------- | :----------- |
+| [1,3,2] | Yes |
+| [2,99,100] | No |
+
+
+---
+
+### Big O
+
+
+| Time | Space |
+| :----------- | :----------- |
+| O(n) | O(1) |
+
+
+---
+
+
+### Whiteboard Visual
+
+![LinkList Merge](https://user-images.githubusercontent.com/58369033/77684661-80aed200-6f57-11ea-9a36-df4a0943f232.jpg)
+
+---
+
+### Change Log
+
+1.1: *Added WhiteBoard Image 3/26/2020 
+
+---
