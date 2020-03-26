@@ -15,8 +15,8 @@ Write a function called mergeLists which takes two linked lists as arguments. Zi
 
 | Input | Expected Output |
 | :----------- | :----------- |
-| [1,3,2] | Yes |
-| [2,99,100] | No |
+| [1]-[3]-[5], [2]-[4]-[6] | [1]-[2]-[3]-[4]-[5]-[6] |
+
 
 
 ---
