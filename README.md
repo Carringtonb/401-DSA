@@ -7,4 +7,4 @@
 
 [LinkList](./linkList)
 
-[StackandQueue](./StackAndQueue./StackAndQueue.sln)
+[StackandQueue](./StackAndQueue/StackAndQueue.sln)
