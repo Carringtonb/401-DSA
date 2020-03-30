@@ -6,3 +6,5 @@
 [LinkListAppend](./LinkListAppend)
 
 [LinkList](./linkList)
+
+[StackandQueue](./StackAndQueue./StackAndQueue.sln)
