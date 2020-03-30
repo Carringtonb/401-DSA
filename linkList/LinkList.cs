@@ -68,6 +68,23 @@ namespace LinkedList.Classes
             return sb.ToString();
         }
 
+        public void Append(int value)
+        {
+            while (Current != null)
+            {
+                if (Current.Next != null)
+                {
+                    Current = Current.Next;
+                }
+                else
+                {
+                    Node node = new Node();
+                    Current.Next = node;
+                    node.Value = value;
+                }
+                Current = Current.Next;
+            }
+        }
 
     }
 }
