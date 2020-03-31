@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ## Linked List
 
@@ -50,3 +51,15 @@ Creating a LinkList of nodes and storing the nodes inside a stack and queue. Add
 1.1: *Created Whiteboard for challenge - 3/30/2020  
 
 
+=======
+# 401-DSA
+[ArrayShift](./array-shift/ArrayShift.sln)
+
+[BinarySearch](./BinarySearch/BinarySearch.sln)
+
+[LinkListAppend](./LinkListAppend)
+
+[LinkList](./linkList)
+
+[StackandQueue](./StackAndQueue/StackAndQueue.sln)
+>>>>>>> 05fd0da01ec6c29c6f576cb5d2d4f17138b7a187

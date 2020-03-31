@@ -1,9 +1,8 @@
 using System;
 using Xunit;
-using StackAndQueue.Classes
-using System.Collections;
+using StackAndQueue.Classes;
 
-namespace UnitTestStackAndQueue
+namespace StacksAndQueuesTests
 {
     public class UnitTest1
     {
@@ -12,7 +11,7 @@ namespace UnitTestStackAndQueue
         {
             Stack stack = new Stack();
             string expected = stack.ToString();
-            string input = "Top of stack -> Null";
+            string input = "Top of Stack ->Null";
             Assert.Equal(expected, input);
         }
     }
