@@ -12,8 +12,8 @@ Create a method to check a string argument for a balanced amount of opening/clos
 
 | Input | Expected Output |
 | :----------- | :----------- |
-| [](({)}) | True |
-| ](){} | False |
+| `[](({)})`| `True` |
+| `](){}` | `False` |
 
 
 ---
