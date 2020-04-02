@@ -15,9 +15,9 @@
 
 [StackandQueue](./StackAndQueue/StackAndQueue.sln)
 
-[AnimalShelter] (./AnimalSheter)
+[AnimalShelter](./AnimalSheter)
 
-[BalancedParens] (./balancedParens)
+[BalancedParens](./balancedParens)
 
-[Enqueue] (./enqueue)
+[Enqueue](./enqueue)
 
