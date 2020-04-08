@@ -1,6 +1,9 @@
 ﻿using System;
 namespace Tree.Classes
 {
+    /// <summary>
+    /// Instantiates a node with a left attribute, right attribute, and a value
+    /// </summary>
     public class Node
     {
         //public Node Next { get; set; }

@@ -3,15 +3,19 @@ using System.Collections.Generic;
 
 namespace Tree.Classes
 {
-    public class Tree
+    public class BinaryTree
     {
         public Node root { get; set; }
 
-        public Tree()
+        public BinaryTree()
         {
             root = null;
         }
-
+        /// <summary>
+        /// Organizes the nodes in a tree and returns the nodes in PreOrder
+        /// Pair Programming with Teddy
+        /// </summary>
+        /// <returns>Array of node values in order with root FILO</returns>
         public List<int> PreOrder()
         {
             Node Root = root;
@@ -32,7 +36,10 @@ namespace Tree.Classes
             listHelper(root, storage);
             return storage;
         }
-
+        /// <summary>
+        /// Organizes the nodes in a tree and returns them with the root called in the middle
+        /// </summary>
+        /// <returns>Array of nodes organized in order</returns>
         public List<int> InOrder()
         {
             Node Root = root;
@@ -53,6 +60,10 @@ namespace Tree.Classes
             listHelper(root, storage);
             return storage;
         }
+        /// <summary>
+        /// Organizes the nodes in a tree and returns them with the root checked at the end
+        /// </summary>
+        /// <returns>Array of nodes organized in PostOrder</returns>
         public List<int> PostOrder()
         {
             Node Root = root;
