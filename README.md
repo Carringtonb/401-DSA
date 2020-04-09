@@ -22,3 +22,9 @@
 [Enqueue](./enqueue)
 
 [tree](./tree)
+
+[fizzbuzztree](./fizzbuzztree)
+
+[BreadthFirst](./BreadthFirst)
+
+[FindMaxBinaryTree](./findMaxBinaryTree)
