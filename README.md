@@ -28,3 +28,5 @@
 [BreadthFirst](./BreadthFirst)
 
 [FindMaxBinaryTree](./findMaxBinaryTree)
+
+[OddSum](./OddSum)
