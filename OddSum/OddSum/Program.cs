@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace OddSum
 {
     class Program
@@ -8,29 +9,17 @@ namespace OddSum
         {
             static void Main()
             {
-                BinarySearchTree nums = new BinarySearchTree();
-                nums.Insert(50);
-                nums.Insert(17);
-                nums.Insert(23);
-                nums.Insert(12);
-                nums.Insert(19);
-                nums.Insert(54);
-                nums.Insert(9);
-                nums.Insert(14);
-                nums.Insert(67);
-                nums.Insert(76);
-                nums.Insert(72);
+                BuildTree();
+              
+
             }
 
             public class Node
             {
-                public int Data;
+                public int Value;
                 public Node Left;
                 public Node Right;
-                public void DisplayNode()
-                {
-                    Console.WriteLine($"{Data}");
-                }
+                
             }
             public Node root;
             public BinarySearchTree()
@@ -40,7 +29,7 @@ namespace OddSum
             public void Insert(int i)
             {
                 Node newNode = new Node();
-                newNode.Data = i;
+                newNode.Value = i;
                 if (root == null)
                     root = newNode;
                 else
@@ -50,7 +39,7 @@ namespace OddSum
                     while (true)
                     {
                         parent = current;
-                        if (i < current.Data)
+                        if (i < current.Value)
                         {
                             current = current.Left;
                             if (current == null)
@@ -74,7 +63,24 @@ namespace OddSum
             }
 
 
+            public static BinarySearchTree BuildTree()
+            {
+                BinarySearchTree nums = new BinarySearchTree();
+                nums.Insert(50);
+                nums.Insert(17);
+                nums.Insert(23);
+                nums.Insert(12);
+                nums.Insert(19);
+                nums.Insert(9);
+                nums.Insert(14);
+                nums.Insert(67);
 
+                Console.WriteLine($"{nums.root.Value}");
+                return nums;
+            }
         }
+
+
+    
     }
 }
