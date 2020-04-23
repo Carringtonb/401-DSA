@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "QuickSort.csproj", "{32F49481-0381-447B-9662-703A6CA92775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSortUnitTests", "QuickSortUnitTests\QuickSortUnitTests.csproj", "{12CBA9C1-35B9-46BA-B065-124569BA45A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32F49481-0381-447B-9662-703A6CA92775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F49481-0381-447B-9662-703A6CA92775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F49481-0381-447B-9662-703A6CA92775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F49481-0381-447B-9662-703A6CA92775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12CBA9C1-35B9-46BA-B065-124569BA45A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12CBA9C1-35B9-46BA-B065-124569BA45A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12CBA9C1-35B9-46BA-B065-124569BA45A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12CBA9C1-35B9-46BA-B065-124569BA45A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
